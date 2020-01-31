@@ -6,6 +6,7 @@ bob.speed( 'fastest' )
 
 
 # polygon example from the book
+#input: bob = t    number = n     length
 def polygon(t , n , length):
     angle = 360 / n
     for i in range( n ):
@@ -13,7 +14,7 @@ def polygon(t , n , length):
         t.lt( angle )
 
 
-# arc example from the book
+# arc example from the book   bob and radius and angle as input
 def arc(t , r , angle):
     arc_length = 2 * math.pi * r * angle / 360
     n = int( arc_length / 3 ) + 1
@@ -33,6 +34,7 @@ def petal(t , r , angle):
 
 
 # flower function with n number of leaf
+#inputs:   t = bob  n = number of leaf     r = radisu   angle = angle   p = revolution in degree
 def flower(t , n , r , angle , p):
     "draw flower with n petal"
     for i in range( n ):

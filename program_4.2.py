@@ -56,5 +56,8 @@ def flower (t,n,r,angle,p):
 
 #create 7 leaf flower
 # flower(bob, 7, 50, 60, 360)
-
+#overlapping leaf with more leaf , changed pedal num and angle compared to before
+# flower(bob, 10, 50, 100, 360)
+#added more leaf and adjust angle to create thinner appearance
+flower(bob, 20, 90, 20, 360)
 turtle.mainloop()

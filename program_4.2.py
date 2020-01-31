@@ -1,3 +1,5 @@
+# Kevin Lee
+# assign 2
 import turtle
 import math
 

@@ -17,12 +17,18 @@ def gcd(int1 , int2):
         remainder = int2 - int1 * clean_remainder
         if remainder == 0 :
             remainder = int2
-    print(remainder)
+
     return remainder
 
 #change whatever number you would like to test
-remain = gcd( 102 , 24 )
-secondgcd = gcd( 24 , remain )
+prompt = 'what is a?\n'
+a = input(prompt)
+prompt = 'what is b?\n'
+b = input(prompt)
+a = int(a)
+b = int(b)
+remain = gcd( a , b )
+secondgcd = gcd( b , remain )
 # print(secondgcd)
 if remain == secondgcd:
     print( "GCD is ==" , secondgcd )

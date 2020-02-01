@@ -27,9 +27,9 @@ prompt = 'what is b?\n'
 b = input(prompt)
 a = int(a)
 b = int(b)
+
 remain = gcd( a , b )
 secondgcd = gcd( b , remain )
-# print(secondgcd)
 if remain == secondgcd:
     print( "GCD is ==" , secondgcd )
 else:
